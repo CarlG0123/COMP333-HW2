@@ -19,7 +19,7 @@ CREATE TABLE artists
 
 ```
 
-## 2. Set up Cascade with Username as a Foreign Key
+## 2. Setting up Deletion Cascade with Username
 ```sql
     ALTER TABLE ratings ADD CONSTRAINT FK_ratings_users 
         FOREIGN KEY ratings(username) REFERENCES users(username)
@@ -31,7 +31,7 @@ CREATE TABLE artists
 ```
 
 
-## 3. Ratings Table
+## 3. Populating the Tables
 ```sql
 INSERT INTO users (username, password) VALUES 
     ("Amelia-Earhart", "Youaom139&yu7"),
