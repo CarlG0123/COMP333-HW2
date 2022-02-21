@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    flex-wrap: wrap;
+    color: rgb(169, 0, 254);
+}
+
+
+/*  
+    Style individual list items.
+*/
+.navbar li {
+    width: 100 px;
+    background-color: #000;
+    border: 1px solid red;
+    /* 
+        Show the navbar elements next to each other instead of on top of each 
+        other. 
+    */
+    padding: 20px;
+    display: inline-block;
+    line-height: 20px;
+}
+
+/* 
+    Style links in navbar.
+*/
+.navbar a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+table, td {
+    border: 1px solid gray;
+}
+
+input {
+    /* 
+        Show different input on top of each other instead of next to each other.
+    */
+    display: block;
+}
+
+/* 
+    Style popular songs iframe.
+*/
+#popular-songs-iframe {
+    width:100%;
+    height:100%;
+    border: dotted;
+}
+
+/* 
+    Style landing page description text
+*/
+#description {
+    font-size: 16px;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+}
+
+/* 
+    Style paragraphs in citation text
+*/
+.citation p {
+    font-size: 10px;
+    flex-wrap: wrap;
+    color: rgb(0, 21, 254);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+/* 
+    Style links in citation.
+*/
+/* #citation a {
+    font-size: 10px;
+    flex-wrap: wrap;
+    color: rgb(0, 21, 254);
+} */
